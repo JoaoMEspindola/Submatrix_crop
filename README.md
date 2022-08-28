@@ -47,7 +47,7 @@ Caso queira consultar mais informações sobre esta biblioteca, clique <a href="
 
 <p align="justify">Dado o vetor de coordenadas, sendo cada posição uma coordenada, associa-se então, cada posição com uma variável supracitada, segue a imagem como exemplo de explicação:</p>
 
-<img src="imgs/Exemplo vetor.png" width="300px"/>
+<img src="imgs/Exemplo vetor.png" width="400px"/>
 
 <p align="justify">Com isso, pode-se obter o tamanho da submatriz a ser recortada fazendo a diferença da coordenada final pela inicial.
 
@@ -55,7 +55,7 @@ Caso queira consultar mais informações sobre esta biblioteca, clique <a href="
 
 <p align="justify">Segue um exemplo de explicação, nesta imagem, os vértices vermelhos representam os números <i>ignorados</i>, os verdes os armazenados pela <i>auxLeitura</i> e os azulados a submatriz recortada:</p>
 
-<img src="imgs/Exemplo recortaMatriz.png" width="300px"/>
+<img src="imgs/Exemplo recortaMatriz.png" width="400px"/>
 
 ## Exemplo
 
@@ -68,15 +68,15 @@ Caso queira consultar mais informações sobre esta biblioteca, clique <a href="
 
 ### Matriz gerada
 
-<img src="imgs/matriz limpa.png" width="300px"/>
+<img src="imgs/matriz limpa.png" width="400px"/>
 
 ### Matriz recortada
 
-<img src="imgs/matriz recortada.png" width="300px"/>
+<img src="imgs/matriz recortada.png" width="400px"/>
 
 ### Saída
 
-<img src="imgs/exemplo saida.png" width="400px"/>
+<img src="imgs/exemplo saida.png" width="500px"/>
 
 ---
 
