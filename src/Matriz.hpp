@@ -14,6 +14,7 @@ void arquivaMatriz(int **matriz, int tam);
 int** transpoeMatriz(int **matriz, int linha, int coluna);
 int** recortaMatriz(int arr[4]);
 int** multiplicaMatrizes(int **matriz, int **matriz2, int linha, int coluna);
-void hashMatriz(string key, int** matriz);
+bool verificaMatriz(unordered_map<string, int**> map, string key);
+
 
 #endif
