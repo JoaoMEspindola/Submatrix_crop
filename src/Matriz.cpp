@@ -81,8 +81,7 @@ int** recortaMatriz(int arr[4]){
         }
     }
     file.close();
-    cout << "Matriz recortada: " << endl;
-    cout << endl;
+    cout << endl << "Matriz recortada: " << endl << endl;
     imprimeMatriz(matrizAux, linhaMatrizAux, colunaMatrizAux);
     cout << endl;
     return multiplicaMatrizes(matrizAux, transpoeMatriz(matrizAux, linhaMatrizAux, colunaMatrizAux), linhaMatrizAux, colunaMatrizAux);
@@ -101,6 +100,10 @@ int** transpoeMatriz(int **matriz, int linha, int coluna){
             matrizTransposta[i][j] = matriz[j][i];
         }
     }
+
+    cout << endl << "Matriz resultante da transposição: " << endl;
+
+    imprimeMatriz(matrizTransposta, coluna, linha);
 
     return matrizTransposta;
 }
@@ -121,11 +124,19 @@ int** multiplicaMatrizes(int **matriz, int **matriz2, int linha, int coluna){
             }
          }
      }
+
+    cout << endl << "Matriz resultante da multiplicação: " << endl;
+    imprimeMatriz(matrizResultante, linha, coluna);
+
     return matrizResultante;
 }
 
-void hashMatriz(string key, int** matriz){
-    unordered_map <string, int**> hash;
+bool verificaMatriz(unordered_map<string, int**> map, string key) {
+    auto verifica = map.find(key);
 
-    hash.emplace(key, matriz);
+    if (verifica != map.end()) {
+        return true;
+    }
+    
+    return false;
 }
