@@ -35,8 +35,8 @@ No enunciado do exercício pede-se um arquivo de nome <i>coordenadas.txt</i>, po
 ### Função multiplicaMatrizes()
 <p align="justify">Utilizando a submatriz recortada e a submatriz transposta, esta função ira realizar a multiplicação de seus termos criando assim uma terceira matriz, a <code>matrizResultante</code>, que será armazenada na tabela <i><b>Hash</i></b> proposta no exercício.</p>
 
-### Função hashMatriz()
-<p align="justify">Uma outra funcionalidade que fez com que C++ fosse escolhido foi a biblioteca <code>unordered_map</code>, que, basicamente, implementa uma tabela <i><b>Hash</i></b> dada uma chave escolhida pelo programador. A chave escolhida para este problema foram as coordenadas iniciais e finais fornecidas pelo usuário, tornando aquela <code>matrizResultante</code> única e resolvendo a última parte do exercício.</p>
+### Função verificaMatriz()
+<p align="justify">Uma outra funcionalidade que fez com que C++ fosse escolhido foi a biblioteca <code>unordered_map</code>, que, basicamente, implementa uma tabela <i><b>Hash</i></b> dada uma chave escolhida pelo programador. A chave escolhida para este problema foram as coordenadas iniciais e finais fornecidas pelo usuário, tornando aquela <code>matrizResultante</code> única e resolvendo a última parte do exercício. Caso o usuário insira as mesmas coordenadas na entrada, o programa mostrará o resultado ja armazenado naquela chave.</p>
 
 Caso queira consultar mais informações sobre esta biblioteca, clique <a href="https://cplusplus.com/reference/unordered_map/unordered_map/">aqui</a>.
 
